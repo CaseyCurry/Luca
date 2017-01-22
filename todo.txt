@@ -26,6 +26,8 @@ code review services/checking-account
 
 code review application
 
+add unit tests to services/service-registry/api/src/routes/index.js
+
 implement composition roots where appropriate
 
 remove duplication throughout with configs (webpack, babel, etc)
