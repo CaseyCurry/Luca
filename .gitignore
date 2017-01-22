@@ -1,7 +1,7 @@
 /lib/*
 /dist/*
 /node_modules/
-*secure-config*
+secure-config.js
 secret.js
 *.log
 /spec/coverage/*
