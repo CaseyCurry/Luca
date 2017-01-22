@@ -18,8 +18,6 @@ add learning to categorization - should have
 -- Hardening
 ---------------------
 
-code review services/checking-account
-
 code review application
 
 add unit tests to services/service-registry/api/src/routes/index.js
@@ -96,7 +94,9 @@ install CouchDB on npm install
 
 add readme.md
 
-add notes to services/users about having to create a tokenizer/secret.js
+add note to services/users about having to create a secret.js
+
+add note to services/checking-account about having to create a secure-config.js
 
 ---------------------
 -- Services
@@ -147,3 +147,4 @@ progress
 --code review services/service-registry
 --code review services/categories
 --code review services/users
+--code review services/checking-account
