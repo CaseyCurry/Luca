@@ -11,7 +11,7 @@ describe("find a port test suite", () => {
           return minimumPort;
         }
       };
-      const port = await findAPort(portscanner);
+      const port = await findAPort(portscanner)();
       expect(port >= minimumPort)
         .to
         .be

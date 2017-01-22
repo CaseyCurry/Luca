@@ -18,11 +18,11 @@ add learning to categorization - should have
 -- Hardening
 ---------------------
 
+code review services/users
+
 code review libraries/luca-couchdb-builder
 
 code review services/checking-account
-
-code review services/users
 
 code review application
 
@@ -138,3 +138,5 @@ progress
 --add auth
 --remove credentials from secure-config
 --refactor bank-website/site-elements to remove promises
+--code review services/service-registry
+--code review services/categories

@@ -2,7 +2,8 @@
 
 const app = require("express")();
 const apiInitializer = require("luca-api-initializer");
-const routes = require("./api/routes");
+const dependencies = require("./dependencies");
+const routes = require("./routes/index");
 const port = 12001;
 
-apiInitializer.initializeWithPort(app, port, routes.register);
+apiInitializer.initializeWithPort(app, port, routes.register(dependencies));
