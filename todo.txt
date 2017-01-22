@@ -18,10 +18,6 @@ add learning to categorization - should have
 -- Hardening
 ---------------------
 
-code review services/users
-
-code review libraries/luca-couchdb-builder
-
 code review services/checking-account
 
 code review application
@@ -95,6 +91,14 @@ create release build (https://expressjs.com/en/advanced/best-practice-performanc
 install CouchDB on npm install
 
 ---------------------
+-- Doco
+---------------------
+
+add readme.md
+
+add notes to services/users about having to create a tokenizer/secret.js
+
+---------------------
 -- Services
 ---------------------
 
@@ -142,3 +146,4 @@ progress
 --refactor bank-website/site-elements to remove promises
 --code review services/service-registry
 --code review services/categories
+--code review services/users
