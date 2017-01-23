@@ -1,0 +1,16 @@
+@import "panel";
+
+.transactions {
+  @include panel();
+  position: relative;
+  margin-bottom: $margin-from-anchor;
+  margin-left: $margin-from-anchor;
+  height: $height-of-top-panels - $margin-from-anchor;
+  width: (100% - $width-of-left-panels) - $margin-from-anchor;
+
+  > div {
+    position: absolute;
+    bottom: $text-padding-from-anchor;
+    left: $text-padding-from-anchor;
+  }
+}

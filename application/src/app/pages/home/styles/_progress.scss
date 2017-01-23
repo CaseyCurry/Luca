@@ -1,0 +1,11 @@
+@import "panel";
+
+.progress {
+  @include panel();
+  color: $light-font-color;
+  margin-top: $margin-from-anchor;
+  margin-left: $margin-from-anchor;
+  background-color: $secondary-color;
+  height: (100% - $height-of-top-panels) - $margin-from-anchor;
+  width: (100% - $width-of-left-panels) - $margin-from-anchor;
+}

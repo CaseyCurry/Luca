@@ -1,0 +1,11 @@
+@import "variables";
+@import "../components/styles/index";
+@import "../pages/home/styles/index";
+@import "../pages/transactions/styles/transactions-content";
+@import "../pages/authentication/styles/authentication";
+
+#app {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $base-font-color;
+}
