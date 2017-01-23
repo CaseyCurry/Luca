@@ -6,8 +6,6 @@ trigger import from ui - must have
 
 add multi-tenancy - should have
 
-unit test .jsx - must have (https://facebook.github.io/react/docs/test-utils.html#shallow-rendering)
-
 add animations to home page - cool to have
 
 add captcha to login page - should have
@@ -18,26 +16,22 @@ add learning to categorization - should have
 -- Hardening
 ---------------------
 
-code review application
+unit test .jsx - must have (https://facebook.github.io/react/docs/test-utils.html#shallow-rendering)
 
 add unit tests to services/service-registry/api/src/routes/index.js
 
-implement composition roots where appropriate
-
-remove duplication throughout with configs (webpack, babel, etc)
+remove duplication throughout configs (webpack, babel, etc)
 
 use json schema to validate api
 
 refactor checking-acct host -> routes -> application-services
 
-move grouping to services - should have
+move grouping to services
 
 are checking-acct handlers appropriate or should they be integrated into
-existing application services
+existing application services?
 
 handle axios errors in encountered in actions
-
-add helmet to express apps
 
 unit test build-database.js
 
@@ -66,13 +60,9 @@ implement message queue - zeromq, nanomsq, rabbitmq, activemq
 -- Dev/Ops
 ---------------------
 
-push to git (application; services/checking-account; services/users; libraries/luca-couchdb-builder;)
-
 add nginx (handle error pages, compression, caching, serving files, tls, http/2, rate limiting)
 
 tokenize services?
-
-service registry
 
 switch from forever to pm2? (http://strong-pm.io/compare/?_ga=1.148349751.1828795932.1480212484)
 
@@ -86,7 +76,7 @@ add logging/monitoring (https://strongloop.com/strongblog/compare-node-js-loggin
 
 create release build (https://expressjs.com/en/advanced/best-practice-performance.html)
 
-install CouchDB on npm install
+install CouchDB on npm install?
 
 ---------------------
 -- Doco
@@ -148,3 +138,8 @@ progress
 --code review services/categories
 --code review services/users
 --code review services/checking-account
+--code review application
+--add helmet to express apps
+--push to git
+--service registry
+--implement composition roots where appropriate
