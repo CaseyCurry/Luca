@@ -34,7 +34,7 @@ module.exports = () => {
           }]
         }
       }, {
-        name: "client",
+        name: "app",
         context: __dirname,
         entry: ["../src/app/index.js"],
         output: {

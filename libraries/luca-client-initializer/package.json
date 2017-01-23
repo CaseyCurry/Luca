@@ -1,6 +1,6 @@
 {
   "name": "luca-client-initializer",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "eslint": "^3.9.0"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "helmet": "^3.4.0",
     "luca-service-registry-library": "^1.2.4"
   }

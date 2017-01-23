@@ -5,7 +5,7 @@ const path = require("path");
 
 const html = {
   filename: "index.html",
-  template: "src/client/index.html"
+  template: "src/app/index.html"
 };
 
 module.exports = [{
@@ -37,12 +37,12 @@ module.exports = [{
     }]
   }
 }, {
-  name: "client",
+  name: "app",
   context: __dirname,
   target: "web",
-  entry: "./src/client/index.js",
+  entry: "./src/app/index.js",
   output: {
-    path: path.resolve(__dirname, "dist/client"),
+    path: path.resolve(__dirname, "dist/app"),
     filename: "index.min.js"
   },
   module: {

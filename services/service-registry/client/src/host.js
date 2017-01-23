@@ -1,12 +1,8 @@
 "use strict";
 
 const path = require("path");
-const express = require("express");
-const app = express();
-
-app.use(express.static(path.join(__dirname, "app")));
+const clientInitializer = require("luca-client-initializer");
 
 const port = 12000;
-app.listen(port, () => {
-  console.log(`listening on port ${port}...`);
-});
+const staticFileLocation = path.join(__dirname, "app");
+clientInitializer.initializeWithPort(port, staticFileLocation);

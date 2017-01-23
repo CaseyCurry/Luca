@@ -36,7 +36,7 @@ module.exports = [{
   context: __dirname,
   entry: ["./src/app/App.jsx"],
   output: {
-    path: path.join(__dirname, "dist/client"),
+    path: path.join(__dirname, "dist/app"),
     filename: "app.min.js",
     library: "CheckingAccountService",
     libraryTarget: "var"

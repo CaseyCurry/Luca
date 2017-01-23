@@ -1,6 +1,6 @@
 "use strict";
 
-const nodeExternals = require("wevpack-node-externals");
+const nodeExternals = require("webpack-node-externals");
 const path = require("path");
 
 module.exports = [{
