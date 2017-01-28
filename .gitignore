@@ -5,3 +5,4 @@ secure-config.js
 secret.js
 *.log
 /spec/coverage/*
+run-logs

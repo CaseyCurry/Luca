@@ -60,6 +60,8 @@ implement message queue - zeromq, nanomsq, rabbitmq, activemq
 -- Dev/Ops
 ---------------------
 
+create script to start services
+
 add nginx (handle error pages, compression, caching, serving files, tls, http/2, rate limiting)
 
 tokenize services?
@@ -143,3 +145,4 @@ progress
 --push to git
 --service registry
 --implement composition roots where appropriate
+--create startup script
