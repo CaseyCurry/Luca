@@ -34,3 +34,6 @@
 [submodule "application"]
 	path = application
 	url = https://github.com/caseycurry/LucaApplication
+[submodule "services/service-registry/client"]
+	path = services/service-registry/client
+	url = https://github.com/caseycurry/LucaServiceRegistryClient
