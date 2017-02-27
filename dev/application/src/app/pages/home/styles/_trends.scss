@@ -1,0 +1,13 @@
+@import "panel";
+
+.trends {
+  @include panel(true);
+  vertical-align: top;
+  text-align: right;
+  margin-top: $margin-from-anchor;
+  margin-right: $margin-from-anchor;
+  background-color: #000;
+  color: $light-font-color;
+  height: (100% - $height-of-top-panels) - $margin-from-anchor;
+  width: $width-of-left-panels - $margin-from-anchor;
+}

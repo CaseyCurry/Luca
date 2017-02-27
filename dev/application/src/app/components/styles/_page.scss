@@ -1,0 +1,93 @@
+$menu-bar-height: 50px;
+$menu-item-height: 50px; // this is also defined in MenuOptions.jsx
+$hamburger-size: 30px;
+$patty-size: 4px;
+
+.page {
+  position: relative;
+
+  > .menu-bar {
+    height: $menu-bar-height;
+    width: 100vw;
+    background-color: $secondary-color;
+    font-size: 150%;
+    text-transform: uppercase;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+
+    .home {
+      position: absolute;
+      left: 0;
+      cursor: pointer;
+    }
+
+    .title {
+      color: $light-font-color;
+    }
+
+    .hamburger {
+      position: absolute;
+      right: 10px;
+      cursor: pointer;
+      width: $hamburger-size;
+      font-size: 0;
+
+      .bun,
+      .patty {
+        display: inline-block;
+        margin: ($patty-size / 2) 0;
+        height: $patty-size;
+        background-color: $light-font-color;
+        width: 100%;
+      }
+    }
+  }
+
+  > .options {
+    position: fixed;
+    width: 40%;
+    right: 0;
+    z-index: 11;
+
+    > ul {
+      position: relative;
+      color: $light-font-color;
+      text-transform: lowercase;
+      text-align: right;
+
+      > li {
+        height: $menu-item-height;
+        width: 100%;
+        position: absolute;
+        background-color: $secondary-color;
+        padding: 10px 20px;
+        border-top: 2px gray solid;
+      }
+    }
+
+    .item-enter {
+      right: -100%;
+    }
+
+    .item-enter.item-enter-active {
+      right: 0;
+      transition: right 150ms ease-in;
+    }
+
+    .item-leave {
+      right: 0;
+    }
+
+    .item-leave.item-leave-active {
+      right: -100%;
+      transition: right 150ms ease-in;
+    }
+  }
+
+  > .content {
+    padding-top: $menu-bar-height;
+  }
+}

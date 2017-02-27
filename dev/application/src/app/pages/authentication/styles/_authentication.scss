@@ -1,0 +1,53 @@
+.authentication {
+  height: 100%;
+  background-color: $base-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    .field {
+      margin-bottom: 30px;
+
+      input {
+        display: block;
+      }
+
+      > span {
+        position: relative;
+      }
+
+      .error {
+        position: absolute;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        color: red;
+        font-size: 85%;
+      }
+    }
+
+    .meter {
+      width: 100%;
+      min-height: 30px;
+      background-color: #eaeaea;
+      color: #ababab;
+      margin-bottom: 5px;
+      vertical-align: middle;
+
+      span {
+        padding-left: 3px;
+        text-transform: lowercase;
+      }
+    }
+
+    .buttons {
+      text-align: center;
+
+      input {
+        cursor: pointer;
+        text-transform: lowercase;
+      }
+    }
+  }
+}

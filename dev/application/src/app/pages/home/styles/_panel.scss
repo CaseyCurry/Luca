@@ -1,0 +1,31 @@
+@mixin panel($is-left-panel: false) {
+  display: inline-block;
+  padding: $text-padding-from-anchor;
+  cursor: pointer;
+  color: $base-font-color;
+
+  .subject {
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 90%;
+  }
+
+  .action {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 110%;
+  }
+
+  .description {
+    font-weight: 300;
+    font-size: 60%;
+    $width: 58%;
+    width: $width;
+    @if $is-left-panel {
+      margin-left: (100% - $width);
+    }
+    @else {
+      margin-left: 0;
+    };
+  }
+}

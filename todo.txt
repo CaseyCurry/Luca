@@ -1,3 +1,5 @@
+move this list to GitHub
+
 ---------------------
 -- Functionality
 ---------------------
@@ -15,6 +17,8 @@ add learning to categorization - should have
 ---------------------
 -- Hardening
 ---------------------
+
+upgrade to webpack 2
 
 unit test .jsx - must have (https://facebook.github.io/react/docs/test-utils.html#shallow-rendering)
 
@@ -60,7 +64,9 @@ implement message queue - zeromq, nanomsq, rabbitmq, activemq
 -- Dev/Ops
 ---------------------
 
-create script to start services
+integrate with GoCD
+
+rollback Admin Party in CouchDB
 
 add nginx (handle error pages, compression, caching, serving files, tls, http/2, rate limiting)
 
@@ -146,3 +152,4 @@ progress
 --service registry
 --implement composition roots where appropriate
 --create startup script
+--create script to start services

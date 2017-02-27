@@ -1,0 +1,14 @@
+// $base-color: #FFD000; // yellow
+$base-color: #dbe9d8;
+$secondary-color: #e05915;
+$dark-font-color: #431c5d;
+$light-font-color: lighten($dark-font-color, 70%);
+$base-font-color: $dark-font-color;
+$base-font-size: 125%;
+$base-font-family: "Lato", sans-serif;
+$text-padding-from-anchor: 20px;
+$margin-from-anchor: 2%;
+$rotation: 342deg;
+$padding-to-fill-rotation: 35%;
+$height-of-top-panels: 58%;
+$width-of-left-panels: 45%;

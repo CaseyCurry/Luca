@@ -1,0 +1,15 @@
+.home {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+
+  > div {
+    height: 100% + ($padding-to-fill-rotation * 2);
+    width: 100% + ($padding-to-fill-rotation * 2);
+    transform: rotate($rotation);
+    background-color: $base-color;
+    position: absolute;
+    left: $padding-to-fill-rotation * -1;
+    top: $padding-to-fill-rotation * -1;
+  }
+}
