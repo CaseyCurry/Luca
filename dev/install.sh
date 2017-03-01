@@ -1,0 +1,25 @@
+#!/bin/bash
+cd ~/github/Luca/dev/application
+npm install
+cd ~/github/Luca/dev/libraries/luca-api-initializer
+npm install
+cd ~/github/Luca/dev/libraries/luca-client-initializer
+npm install
+cd ~/github/Luca/dev/libraries/luca-couchdb-synchronizer
+npm install
+cd ~/github/Luca/dev/libraries/luca-spec-bootstrapper
+npm install
+cd ~/github/Luca/dev/services/categories/api
+npm install
+cd ~/github/Luca/dev/services/checking-account/api
+npm install
+cd ~/github/Luca/dev/services/checking-account/client
+npm install
+cd ~/github/Luca/dev/services/service-registry/api
+npm install
+cd ~/github/Luca/dev/services/service-registry/client
+npm install
+cd ~/github/Luca/dev/services/users/api
+npm install
+cd ~/github/Luca/dev/services/users/client
+npm install
