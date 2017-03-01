@@ -1,7 +1,7 @@
 import React from "react";
 import Transactions from "./Transactions";
 import axios from "axios";
-import serviceRegistry from "service-registry-library";
+import serviceRegistry from "luca-service-registry-library";
 
 const TransactionsContainer = () => {
   const categoriesApi = {
