@@ -1,4 +1,4 @@
-import serviceRegistry from "service-registry-library";
+import serviceRegistry from "luca-service-registry-library";
 
 const loadCss = (url) => {
   const sheet = document.createElement("link");
