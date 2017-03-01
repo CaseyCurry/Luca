@@ -1,23 +1,18 @@
 module.exports = {
   "env": {
-    "browser": true,
+    "node": true,
     "es6": true,
     "mocha": true
   },
-  "globals": {
-    "CheckingAccountService": false,
-    "UserService": false
-  },
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": ["eslint:recommended"],
   "parserOptions": {
     "ecmaVersion": 2017,
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
-      "jsx": true
+      "experimentalObjectRestSpread": true
     },
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": [],
   "rules": {
     "indent": ["error",
       2, {
