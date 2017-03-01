@@ -1,11 +1,13 @@
 #!/bin/bash
 
+export TOKEN_SECRET=123
+
 function start {
   app_dir=$1
   app_name=$2
   cd $app_dir
   ./node_modules/.bin/webpack
-  pm2 start $app_dir/dist/host.js --name $app_name --watch $app_dir/dist --output ../run-logs/$app_name.output.log --error ../run-logs/$app_name.error.log
+  pm2 start $app_dir/dist/host.js --name $app_name --watch $app_dir/dist --output ~/github/Luca/dev/run-logs/$app_name.output.log --error ~/github/Luca/dev/run-logs/$app_name.error.log
 }
 
 pm2 delete all
