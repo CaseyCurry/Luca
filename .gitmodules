@@ -43,3 +43,6 @@
 [submodule "ops/docs"]
 	path = ops/docs
 	url = https://github.com/caseycurry/LucaOpsDocs
+[submodule "ops/cd"]
+	path = ops/cd
+	url = https://github.com/caseycurry/LucaContinuousDelivery
