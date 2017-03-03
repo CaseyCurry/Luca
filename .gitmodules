@@ -7,3 +7,42 @@
 [submodule "ops/docs"]
 	path = ops/docs
 	url = https://github.com/caseycurry/LucaOpsDocs
+[submodule "dev/application"]
+	path = dev/application
+	url = https://github.com/caseycurry/LucaApplication
+[submodule "dev/services/categories/api"]
+	path = dev/services/categories/api
+	url = https://github.com/caseycurry/LucaCategoriesApi
+[submodule "dev/services/checking-account/api"]
+	path = dev/services/checking-account/api
+	url = https://github.com/caseycurry/LucaCheckingAccountApi
+[submodule "dev/services/checking-account/client"]
+	path = dev/services/checking-account/client
+	url = https://github.com/caseycurry/LucaCheckingAccountClient
+[submodule "dev/services/service-registry/client"]
+	path = dev/services/service-registry/client
+	url = https://github.com/caseycurry/LucaServiceRegistryClient
+[submodule "dev/services/service-registry/api"]
+	path = dev/services/service-registry/api
+	url = https://github.com/caseycurry/LucaServiceRegistryApi
+[submodule "dev/services/users/api"]
+	path = dev/services/users/api
+	url = https://github.com/caseycurry/LucaUsersApi
+[submodule "dev/services/users/client"]
+	path = dev/services/users/client
+	url = https://github.com/caseycurry/LucaUsersClient
+[submodule "dev/libraries/luca-api-initializer"]
+	path = dev/libraries/luca-api-initializer
+	url = https://github.com/caseycurry/LucaApiInitializer
+[submodule "dev/services/service-registry/library"]
+	path = dev/services/service-registry/library
+	url = https://github.com/caseycurry/LucaServiceRegistryLibrary
+[submodule "dev/libraries/luca-client-initializer"]
+	path = dev/libraries/luca-client-initializer
+	url = https://github.com/caseycurry/LucaClientInitializer
+[submodule "dev/libraries/luca-couchdb-synchronizer"]
+	path = dev/libraries/luca-couchdb-synchronizer
+	url = https://github.com/caseycurry/LucaCouchDbSynchronizer
+[submodule "dev/libraries/luca-spec-bootstrapper"]
+	path = dev/libraries/luca-spec-bootstrapper
+	url = https://github.com/caseycurry/LucaSpecBootstrapper
