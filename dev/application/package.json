@@ -11,7 +11,8 @@
     "build:dev": "webpack",
     "build:release": "webpack -p",
     "dev": "webpack-dev-server --inline --hot --open --config ./spec/webpack.config.js",
-    "start": "npm run build:dev && node dist/host.js"
+    "start": "npm run build:dev && node dist/host.js",
+    "e2e": "wdio ./features/wdio.conf.js --tags=@ContinuousIntegration"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
     "babel-preset-react": "^6.16.0",
     "chai": "^3.5.0",
     "css-loader": "^0.26.1",
+    "cucumber": "^1.3.1",
     "eslint": "^3.8.1",
     "eslint-loader": "^1.6.0",
     "eslint-plugin-react": "^6.4.1",
@@ -41,6 +43,11 @@
     "sass": "^0.5.0",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
+    "wdio-cucumber-framework": "^0.2.15",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "0.0.5",
+    "webdriverio": "^4.6.2",
     "webpack": "^2.2.0-rc.4",
     "webpack-dev-server": "^2.2.0-rc.0",
     "webpack-node-externals": "^1.5.4"

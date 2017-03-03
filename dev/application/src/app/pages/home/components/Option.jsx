@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router";
 
 const Option = ({subject, action, description}) => {
-  return <Link to={action}>
+  return <Link to={action}}>
     <div className={action.toLowerCase()}>
       <div>
         <div className="subject">{subject}</div>

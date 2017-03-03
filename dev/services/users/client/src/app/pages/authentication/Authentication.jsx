@@ -33,7 +33,7 @@ const Authentication = ({
       <div className="buttons">
         <input
           type="submit"
-          value="Submit"
+          value="Login"
           disabled={!isFormValid(email, password, error, emailNotFound, invalidPassword)}/>
         <input
           type="button"

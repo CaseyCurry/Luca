@@ -65,7 +65,7 @@ exports.config = {
   coloredLogs: true,
   //
   // If you only want to run your tests until a specific amount of tests have failed use
-  // bail (default is 0 - don"t bail, run all tests).
+  // bail (default is 0 - don't bail, run all tests).
   bail: 0,
   //
   // Saves a screenshot to a given path if a command fails.
@@ -73,7 +73,7 @@ exports.config = {
   //
   // Set a base URL in order to shorten url command calls. If your url parameter starts
   // with "/", then the base url gets prepended.
-  baseUrl: "http://localhost:9999",
+  baseUrl: "http://localhost:13000",
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -125,7 +125,7 @@ exports.config = {
   //
   // If you are using Cucumber you need to specify the location of your step definitions.
   cucumberOpts: {
-    require: ["./features/step-definitions"], // <string[]> (file/dir) require files before executing features
+    require: ["./features/steps"], // <string[]> (file/dir) require files before executing features
     backtrace: false, // <boolean> show full backtrace for errors
     compiler: [], // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
     dryRun: false, // <boolean> invoke formatters without executing steps
@@ -162,8 +162,11 @@ exports.config = {
   // Gets executed before test execution begins. At this point you can access all global
   // variables, such as `browser`. It is the perfect place to define custom commands.
   before: function() {
-    var chai = require("chai");
-    global.should = chai.should();
+    const chai = require("chai");
+    global.expect = (value) => {
+      return chai.expect(value);
+    };
+    global.pages = require("./pages/index.js");
   },
   //
   // Hook that gets executed before the suite starts
@@ -213,4 +216,4 @@ exports.config = {
   // possible to defer the end of the process using a promise.
   // onComplete: function(exitCode) {
   // }
-}
+};

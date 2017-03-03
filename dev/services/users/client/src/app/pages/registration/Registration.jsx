@@ -47,7 +47,7 @@ const Registration = ({
       <div className="buttons">
         <input
           type="submit"
-          value="Submit"
+          value="Register"
           disabled={!isFormValid(email, password, confirmedPassword, error)}/>
         <input
           type="button"
