@@ -37,9 +37,6 @@
 [submodule "dev/services/service-registry/client"]
 	path = dev/services/service-registry/client
 	url = https://github.com/caseycurry/LucaServiceRegistryClient
-[submodule "ops/environment"]
-	path = ops/environment
-	url = https://github.com/caseycurry/LucaOpsEnvironment
 [submodule "ops/docs"]
 	path = ops/docs
 	url = https://github.com/caseycurry/LucaOpsDocs
