@@ -46,3 +46,6 @@
 [submodule "dev/libraries/luca-spec-bootstrapper"]
 	path = dev/libraries/luca-spec-bootstrapper
 	url = https://github.com/caseycurry/LucaSpecBootstrapper
+[submodule "test"]
+	path = test
+	url = https://github.com/caseycurry/LucaTest
