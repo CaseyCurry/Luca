@@ -19,21 +19,12 @@
 [submodule "dev/services/checking-account/client"]
 	path = dev/services/checking-account/client
 	url = https://github.com/caseycurry/LucaCheckingAccountClient
-[submodule "dev/services/service-registry/client"]
-	path = dev/services/service-registry/client
-	url = https://github.com/caseycurry/LucaServiceRegistryClient
-[submodule "dev/services/service-registry/api"]
-	path = dev/services/service-registry/api
-	url = https://github.com/caseycurry/LucaServiceRegistryApi
 [submodule "dev/services/users/api"]
 	path = dev/services/users/api
 	url = https://github.com/caseycurry/LucaUsersApi
 [submodule "dev/services/users/client"]
 	path = dev/services/users/client
 	url = https://github.com/caseycurry/LucaUsersClient
-[submodule "dev/services/service-registry/library"]
-	path = dev/services/service-registry/library
-	url = https://github.com/caseycurry/LucaServiceRegistryLibrary
 [submodule "dev/libraries/luca-couchdb-synchronizer"]
 	path = dev/libraries/luca-couchdb-synchronizer
 	url = https://github.com/caseycurry/LucaCouchDbSynchronizer
