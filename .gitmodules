@@ -31,15 +31,9 @@
 [submodule "dev/services/users/client"]
 	path = dev/services/users/client
 	url = https://github.com/caseycurry/LucaUsersClient
-[submodule "dev/libraries/luca-api-initializer"]
-	path = dev/libraries/luca-api-initializer
-	url = https://github.com/caseycurry/LucaApiInitializer
 [submodule "dev/services/service-registry/library"]
 	path = dev/services/service-registry/library
 	url = https://github.com/caseycurry/LucaServiceRegistryLibrary
-[submodule "dev/libraries/luca-client-initializer"]
-	path = dev/libraries/luca-client-initializer
-	url = https://github.com/caseycurry/LucaClientInitializer
 [submodule "dev/libraries/luca-couchdb-synchronizer"]
 	path = dev/libraries/luca-couchdb-synchronizer
 	url = https://github.com/caseycurry/LucaCouchDbSynchronizer
