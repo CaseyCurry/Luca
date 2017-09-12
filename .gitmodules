@@ -34,3 +34,6 @@
 [submodule "test"]
 	path = test
 	url = https://github.com/caseycurry/LucaTest
+[submodule "ops/dependencies"]
+	path = ops/dependencies
+	url = https://github.com/caseycurry/LucaOpsDependencies
