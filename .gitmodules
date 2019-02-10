@@ -10,6 +10,9 @@
 [submodule "dev/application"]
 	path = dev/application
 	url = https://github.com/caseycurry/LucaApplication
+[submodule "dev/services/bad-purchases/api"]
+	path = dev/services/bad-purchases/api
+	url = https://github.com/caseycurry/LucaBadPurchasesApi
 [submodule "dev/services/categories/api"]
 	path = dev/services/categories/api
 	url = https://github.com/caseycurry/LucaCategoriesApi
@@ -19,6 +22,15 @@
 [submodule "dev/services/checking-account/client"]
 	path = dev/services/checking-account/client
 	url = https://github.com/caseycurry/LucaCheckingAccountClient
+[submodule "dev/services/dashboard/client"]
+	path = dev/services/dashboard/client
+	url = https://github.com/caseycurry/LucaDashboardClient
+[submodule "dev/services/investments/metals/api"]
+	path = dev/services/investments/metals/api
+	url = https://github.com/caseycurry/LucaMetalsApi
+[submodule "dev/services/investments/retirement/api"]
+	path = dev/services/investments/retirement/api
+	url = https://github.com/caseycurry/LucaRetirementApi
 [submodule "dev/services/users/api"]
 	path = dev/services/users/api
 	url = https://github.com/caseycurry/LucaUsersApi
@@ -37,3 +49,6 @@
 [submodule "ops/dependencies"]
 	path = ops/dependencies
 	url = https://github.com/caseycurry/LucaOpsDependencies
+[submodule "dev/services/bad-purchase/api"]
+	path = dev/services/bad-purchase/api
+	url = https://github.com/caseycurry/LucaBadPurchasesApi
