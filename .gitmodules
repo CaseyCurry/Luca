@@ -49,6 +49,3 @@
 [submodule "ops/dependencies"]
 	path = ops/dependencies
 	url = https://github.com/caseycurry/LucaOpsDependencies
-[submodule "dev/services/bad-purchase/api"]
-	path = dev/services/bad-purchase/api
-	url = https://github.com/caseycurry/LucaBadPurchasesApi
