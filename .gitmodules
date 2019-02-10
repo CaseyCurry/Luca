@@ -13,6 +13,9 @@
 [submodule "dev/services/bad-purchases/api"]
 	path = dev/services/bad-purchases/api
 	url = https://github.com/caseycurry/LucaBadPurchasesApi
+[submodule "dev/services/bad-purchases/client"]
+	path = dev/services/bad-purchases/client
+	url = https://github.com/caseycurry/LucaBadPurchasesClient
 [submodule "dev/services/categories/api"]
 	path = dev/services/categories/api
 	url = https://github.com/caseycurry/LucaCategoriesApi
