@@ -1,0 +1,155 @@
+move this list to GitHub
+
+---------------------
+-- Functionality
+---------------------
+
+trigger import from ui - must have
+
+add multi-tenancy - should have
+
+add animations to home page - cool to have
+
+add captcha to login page - should have
+
+add learning to categorization - should have
+
+---------------------
+-- Hardening
+---------------------
+
+upgrade to webpack 2
+
+unit test .jsx - must have (https://facebook.github.io/react/docs/test-utils.html#shallow-rendering)
+
+add unit tests to services/service-registry/api/src/routes/index.js
+
+remove duplication throughout configs (webpack, babel, etc)
+
+use json schema to validate api
+
+refactor checking-acct host -> routes -> application-services
+
+move grouping to services
+
+are checking-acct handlers appropriate or should they be integrated into
+existing application services?
+
+handle axios errors in encountered in actions
+
+unit test build-database.js
+
+unit test dependencies... maybe
+
+expect().to.equal() - enter expected first, then actual
+
+refactor style (https://sass-guidelin.es/#architecture)
+  -- breakpoints
+  -- media queries
+  -- use % selector instead of . for blocks that are only for @extends (http://thesassway.com/intermediate/understanding-placeholder-selectors)
+
+move .eslintrc.js rules to common module at /luca
+
+---------------------
+-- Architecture
+---------------------
+
+create ApiProxy in users/client instead of using config in the actions
+
+are there any opportunities to use hypermedia in services?
+
+implement message queue - zeromq, nanomsq, rabbitmq, activemq
+
+---------------------
+-- Dev/Ops
+---------------------
+
+integrate with GoCD
+
+rollback Admin Party in CouchDB
+
+add nginx (handle error pages, compression, caching, serving files, tls, http/2, rate limiting)
+
+tokenize services?
+
+switch from forever to pm2? (http://strong-pm.io/compare/?_ga=1.148349751.1828795932.1480212484)
+
+add ssl
+
+add gzip
+
+container?
+
+add logging/monitoring (https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/?_ga=1.114208647.1828795932.1480212484)
+
+create release build (https://expressjs.com/en/advanced/best-practice-performance.html)
+
+install CouchDB on npm install?
+
+---------------------
+-- Doco
+---------------------
+
+add readme.md
+
+add note to services/users about having to create a secret.js
+
+add note to services/checking-account about having to create a secure-config.js
+
+---------------------
+-- Services
+---------------------
+
+budget
+
+trends
+
+progress
+
+
+
+
+*********************
+** Done
+*********************
+
+--unit test handlers
+--unit test events
+--create repos for handlers
+--bootstrap handlers
+--work events into import service
+--add TransactionAdapter
+--change handlers to listeners
+--create DomainDate and Money value objects
+--refactor React.Components that only have render()
+--add index.js to client/actions
+--remove Transaction reference from BankWebsite;
+--return bank transactions to application.services;
+--Transaction.import from application.services which is a factory that notifies;
+--persist transaction in application.services;
+--remove bluebird in favor of js promises
+--integrate generators (https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+--remove jasmine in favor of mocha
+--remove reporter
+--make import report error count
+--replace...
+    function() {}
+  with...
+    const areEqual = (x, y) => {}
+--make events idempotent
+--unit test authenticate-user route handler in users
+--fix nyc script
+--add auth
+--remove credentials from secure-config
+--refactor bank-website/site-elements to remove promises
+--code review services/service-registry
+--code review services/categories
+--code review services/users
+--code review services/checking-account
+--code review application
+--add helmet to express apps
+--push to git
+--service registry
+--implement composition roots where appropriate
+--create startup script
+--create script to start services

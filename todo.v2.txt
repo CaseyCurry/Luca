@@ -1,0 +1,18 @@
+move this list to GitHub
+
+---------------------
+-- Dev
+---------------------
+
+properly implement authentication
+config mgmt
+build portal
+cache-control
+compression
+harden messaging
+
+------------------
+-- Ops
+------------------
+convert to Dynamo, Lambda, and SQS
+implement API Gateway, CodePipeline, logging, Route 53, either CloudFront or S3
